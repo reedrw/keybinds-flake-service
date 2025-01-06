@@ -27,6 +27,6 @@
         };
       };
     };
-    flake.servicesFlakeModules.default = import ./module;
+    flake.processComposeModules.default = import ./module;
   };
 }
