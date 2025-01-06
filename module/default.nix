@@ -11,7 +11,7 @@ in
         default = keybind;
       };
       keybinds = lib.mkOption {
-        type = lib.types.attrsOf lib.types.string;
+        type = lib.types.attrsOf lib.types.str;
         default = {};
         description = "Keybinds to be set";
       };
